@@ -63,4 +63,4 @@ data.to_csv(output_file, index=False)
 summary_file = os.path.join(PROCESSED_DATA_PATH, f"sentiment_summary_{timestamp}.csv")
 sentiment_summary.to_csv(summary_file)
 
-logging.info(f"Sentiment analysis complete. Saved to {output_file} and {summary_file}")
+logging.info(f"Sentiment analysis complete. Saved to {output_file} and  {summary_file}")
