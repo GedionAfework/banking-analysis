@@ -92,10 +92,13 @@ data[
     [
         "review_id",
         "review_text",
+        "rating",
+        "date",
+        "bank_name",
+        "source",
         "sentiment_label",
         "sentiment_score",
         "themes",
-        "bank_name",
     ]
 ].to_csv(output_file, index=False)
 logging.info(f"Thematic analysis complete. Saved to {output_file}")
